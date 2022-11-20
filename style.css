@@ -9,8 +9,8 @@
 :root{
     --primary:#db4c58;
     --secondary:#f587d4;
-    --ternary:#f7e5f2;
-    --error:rgb(236, 15, 15);
+    --ternary:#f8e8ea;
+    --error:rgb(224, 51, 51);
     --submit:#198754;
 
 
@@ -36,7 +36,7 @@ body{
     /* border: 2px solid red; */
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
     flex-wrap: wrap;
     
 }
@@ -70,9 +70,10 @@ input{
     font-size: 20px;
     color: white;
     border:2px solid transparent;
+    margin-bottom: 20px;
     }
 
-    #bbb{
+    #button_sub{
         text-align: center;
     }
 
