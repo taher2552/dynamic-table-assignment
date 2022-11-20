@@ -7,9 +7,9 @@
 }
 
 :root{
-    --primary:#CC313D;
-    --secondary:#F7C5CC;
-    --ternary:#FFFFD2;
+    --primary:#db4c58;
+    --secondary:#f587d4;
+    --ternary:#f7e5f2;
     --error:rgb(236, 15, 15);
     --submit:#198754;
 
@@ -83,11 +83,6 @@ input{
     cursor:pointer;
 }
 
-
-
-
-
-
 .del{
     padding:10px;
     border-radius: 5px;
@@ -127,11 +122,10 @@ table, th, td {
     background-color: var(--primary);
     color:white;
     font-size: 25px;
-    color:var(--secondary);
  }
 
  td{
-    background-color:#FC8EAC;
+    background-color:var(--secondary);
     color:white;
     font-size: 25px;
  }
