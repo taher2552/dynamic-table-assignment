@@ -1,4 +1,3 @@
-
     const display_row=document.getElementById('body');
     const person=document.getElementById("name");
     const email=document.getElementById("email");
@@ -45,7 +44,7 @@
       const del4=document.querySelectorAll('.del');
    
       for (const del of del4) {
-         del.addEventListener('click', function(event) {
+         del.addEventListener('click', function() {
 
             let confirm=window.confirm("are you sure you want to delete this??");
 
@@ -55,23 +54,6 @@
           
          })
        }
-
-      
-
-
-      
-
-      //  var row = document.querySelectorAll(".remove");
-      //  for(let i=0; i<del4.length; i++){
-      //      del4[i].onclick = function(){
-      //          this.parentNode.remove();
-      //          console.log(display_row[i])
-      //      }
-      //  }
-
-
-   
-
     })
 
   
