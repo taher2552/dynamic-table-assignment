@@ -41,9 +41,9 @@
       error.innerText="";
 
       
-      const del4=document.querySelectorAll('.del');
+      const delete_row=document.querySelectorAll('.del');
    
-      for (const del of del4) {
+      for (const del of delete_row) {
          del.addEventListener('click', function() {
 
             let confirm=window.confirm("are you sure you want to delete this??");
